@@ -1,0 +1,8 @@
+wahaj.txt file successfully created
+
+append text
+append text
+append text
+
+this is amazimg promise
+this is amazimg promise

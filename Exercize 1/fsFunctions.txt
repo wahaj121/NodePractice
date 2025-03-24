@@ -1,0 +1,27 @@
+Yeh raha ek readable table jisme fs module ke tamaam functions aur unka use case diya gaya hai:
+
+Function	Use Case
+fs.writeFile()	File likhne ke liye (overwrite karega)
+fs.appendFile()	File ke andar naye data ko append karne ke liye
+fs.readFile()	File ka content read karne ke liye
+fs.unlink()	File delete karne ke liye
+fs.rename()	File ka naam badalne ke liye
+fs.copyFile()	File ko copy karne ke liye
+fs.mkdir()	Naya directory (folder) banane ke liye
+fs.rmdir()	Directory delete karne ke liye
+fs.readdir()	Directory ke andar mojood files aur folders list karne ke liye
+fs.stat()	File ya directory ka status check karne ke liye
+fs.lstat()	Symlink ya original file ka status check karne ke liye
+fs.existsSync()	File ya directory mojood hai ya nahi, check karne ke liye
+fs.access()	File ya folder ke permissions check karne ke liye
+fs.createReadStream()	Large files ko stream ki madad se read karne ke liye
+fs.createWriteStream()	Large files ko stream ki madad se write karne ke liye
+fs.watch()	Kisi file ya directory ke changes ko monitor karne ke liye
+fs.watchFile()	Specific file ke changes ko monitor karne ke liye
+fs.writeFileSync()	File likhne ke liye (Synchronous)
+fs.appendFileSync()	File me data append karne ke liye (Synchronous)
+fs.readFileSync()	File ka content read karne ke liye (Synchronous)
+fs.unlinkSync()	File delete karne ke liye (Synchronous)
+fs.renameSync()	File ka naam badalne ke liye (Synchronous)
+fs.mkdirSync()	Directory banane ke liye (Synchronous)
+fs.rmdirSync()	Directory delete karne ke liye (Synchronous)
