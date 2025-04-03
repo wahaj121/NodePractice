@@ -1,4 +1,4 @@
-// export const a = " wahaj";  // => named export 
+export const a = " wahaj";  // => named export 
 
 let wahaj = {
     a: 1,
